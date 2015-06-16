@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE9614A61ACCA51A008E48A2 /* Cone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE9614A51ACCA51A008E48A2 /* Cone.jpg */; };
+		CE15C2B41AB9ED70007DABB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15C2B31AB9ED70007DABB5 /* AppDelegate.swift */; };
+		CE15C2B71AB9ED70007DABB5 /* Shape_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE15C2B51AB9ED70007DABB5 /* Shape_Calculator.xcdatamodeld */; };
+		CE15C2B91AB9ED70007DABB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15C2B81AB9ED70007DABB5 /* ViewController.swift */; };
+		CE15C2BC1AB9ED70007DABB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE15C2BA1AB9ED70007DABB5 /* Main.storyboard */; };
+		CE15C2BE1AB9ED70007DABB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE15C2BD1AB9ED70007DABB5 /* Images.xcassets */; };
+		CE15C2C11AB9ED70007DABB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE15C2BF1AB9ED70007DABB5 /* LaunchScreen.xib */; };
+		CE15C2CD1AB9ED70007DABB5 /* Shape_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15C2CC1AB9ED70007DABB5 /* Shape_CalculatorTests.swift */; };
+		CE90B3D51AC70C63000C6A8E /* ShapeCalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90B3D41AC70C63000C6A8E /* ShapeCalculationViewController.swift */; };
+		CE90B3D71AC78AAF000C6A8E /* FormulasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90B3D61AC78AAF000C6A8E /* FormulasViewController.swift */; };
+		CE90B3DA1AC7AD2A000C6A8E /* Square.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90B3D91AC7AD2A000C6A8E /* Square.png */; };
+		CE90B3DC1AC7AE16000C6A8E /* Triangle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE90B3DB1AC7AE16000C6A8E /* Triangle.jpg */; };
+		CE90B3DE1AC7B18F000C6A8E /* Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90B3DD1AC7B18F000C6A8E /* Rectangle.png */; };
+		CE90B3E31AC7B4AC000C6A8E /* Circle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE90B3DF1AC7B4AC000C6A8E /* Circle.jpg */; };
+		CE90B3E41AC7B4AC000C6A8E /* Cube.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90B3E01AC7B4AC000C6A8E /* Cube.png */; };
+		CE90B3E51AC7B4AC000C6A8E /* Cylinder.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90B3E11AC7B4AC000C6A8E /* Cylinder.png */; };
+		CE90B3E61AC7B4AC000C6A8E /* Sphere.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90B3E21AC7B4AC000C6A8E /* Sphere.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE15C2C71AB9ED70007DABB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE15C2A61AB9ED6F007DABB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE15C2AD1AB9ED6F007DABB5;
+			remoteInfo = "Shape Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE9614A51ACCA51A008E48A2 /* Cone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cone.jpg; sourceTree = "<group>"; };
+		CE15C2AE1AB9ED6F007DABB5 /* Shape Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shape Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE15C2B21AB9ED70007DABB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE15C2B31AB9ED70007DABB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE15C2B61AB9ED70007DABB5 /* Shape_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shape_Calculator.xcdatamodel; sourceTree = "<group>"; };
+		CE15C2B81AB9ED70007DABB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE15C2BB1AB9ED70007DABB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE15C2BD1AB9ED70007DABB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE15C2C01AB9ED70007DABB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CE15C2C61AB9ED70007DABB5 /* Shape CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shape CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE15C2CB1AB9ED70007DABB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE15C2CC1AB9ED70007DABB5 /* Shape_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape_CalculatorTests.swift; sourceTree = "<group>"; };
+		CE90B3D41AC70C63000C6A8E /* ShapeCalculationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeCalculationViewController.swift; sourceTree = "<group>"; };
+		CE90B3D61AC78AAF000C6A8E /* FormulasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormulasViewController.swift; sourceTree = "<group>"; };
+		CE90B3D91AC7AD2A000C6A8E /* Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Square.png; path = images/Square.png; sourceTree = "<group>"; };
+		CE90B3DB1AC7AE16000C6A8E /* Triangle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Triangle.jpg; path = images/Triangle.jpg; sourceTree = "<group>"; };
+		CE90B3DD1AC7B18F000C6A8E /* Rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rectangle.png; path = images/Rectangle.png; sourceTree = "<group>"; };
+		CE90B3DF1AC7B4AC000C6A8E /* Circle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Circle.jpg; path = images/Circle.jpg; sourceTree = "<group>"; };
+		CE90B3E01AC7B4AC000C6A8E /* Cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cube.png; path = images/Cube.png; sourceTree = "<group>"; };
+		CE90B3E11AC7B4AC000C6A8E /* Cylinder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cylinder.png; path = images/Cylinder.png; sourceTree = "<group>"; };
+		CE90B3E21AC7B4AC000C6A8E /* Sphere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sphere.png; path = images/Sphere.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE15C2AB1AB9ED6F007DABB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE15C2C31AB9ED70007DABB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE15C2A51AB9ED6F007DABB5 = {
+			isa = PBXGroup;
+			children = (
+				CE15C2B01AB9ED6F007DABB5 /* Shape Calculator */,
+				CE15C2C91AB9ED70007DABB5 /* Shape CalculatorTests */,
+				CE15C2AF1AB9ED6F007DABB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE15C2AF1AB9ED6F007DABB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE15C2AE1AB9ED6F007DABB5 /* Shape Calculator.app */,
+				CE15C2C61AB9ED70007DABB5 /* Shape CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE15C2B01AB9ED6F007DABB5 /* Shape Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				CE90B3D81AC7AD1D000C6A8E /* images */,
+				CE15C2B31AB9ED70007DABB5 /* AppDelegate.swift */,
+				CE15C2B81AB9ED70007DABB5 /* ViewController.swift */,
+				CE90B3D41AC70C63000C6A8E /* ShapeCalculationViewController.swift */,
+				CE90B3D61AC78AAF000C6A8E /* FormulasViewController.swift */,
+				CE15C2BA1AB9ED70007DABB5 /* Main.storyboard */,
+				CE15C2BD1AB9ED70007DABB5 /* Images.xcassets */,
+				CE15C2BF1AB9ED70007DABB5 /* LaunchScreen.xib */,
+				CE15C2B51AB9ED70007DABB5 /* Shape_Calculator.xcdatamodeld */,
+				CE15C2B11AB9ED6F007DABB5 /* Supporting Files */,
+			);
+			path = "Shape Calculator";
+			sourceTree = "<group>";
+		};
+		CE15C2B11AB9ED6F007DABB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE15C2B21AB9ED70007DABB5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE15C2C91AB9ED70007DABB5 /* Shape CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE15C2CC1AB9ED70007DABB5 /* Shape_CalculatorTests.swift */,
+				CE15C2CA1AB9ED70007DABB5 /* Supporting Files */,
+			);
+			path = "Shape CalculatorTests";
+			sourceTree = "<group>";
+		};
+		CE15C2CA1AB9ED70007DABB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE15C2CB1AB9ED70007DABB5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE90B3D81AC7AD1D000C6A8E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE90B3DB1AC7AE16000C6A8E /* Triangle.jpg */,
+				CE90B3D91AC7AD2A000C6A8E /* Square.png */,
+				CE90B3DD1AC7B18F000C6A8E /* Rectangle.png */,
+				CE90B3DF1AC7B4AC000C6A8E /* Circle.jpg */,
+				BE9614A51ACCA51A008E48A2 /* Cone.jpg */,
+				CE90B3E01AC7B4AC000C6A8E /* Cube.png */,
+				CE90B3E11AC7B4AC000C6A8E /* Cylinder.png */,
+				CE90B3E21AC7B4AC000C6A8E /* Sphere.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE15C2AD1AB9ED6F007DABB5 /* Shape Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE15C2D01AB9ED70007DABB5 /* Build configuration list for PBXNativeTarget "Shape Calculator" */;
+			buildPhases = (
+				CE15C2AA1AB9ED6F007DABB5 /* Sources */,
+				CE15C2AB1AB9ED6F007DABB5 /* Frameworks */,
+				CE15C2AC1AB9ED6F007DABB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shape Calculator";
+			productName = "Shape Calculator";
+			productReference = CE15C2AE1AB9ED6F007DABB5 /* Shape Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE15C2C51AB9ED70007DABB5 /* Shape CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE15C2D31AB9ED70007DABB5 /* Build configuration list for PBXNativeTarget "Shape CalculatorTests" */;
+			buildPhases = (
+				CE15C2C21AB9ED70007DABB5 /* Sources */,
+				CE15C2C31AB9ED70007DABB5 /* Frameworks */,
+				CE15C2C41AB9ED70007DABB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE15C2C81AB9ED70007DABB5 /* PBXTargetDependency */,
+			);
+			name = "Shape CalculatorTests";
+			productName = "Shape CalculatorTests";
+			productReference = CE15C2C61AB9ED70007DABB5 /* Shape CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE15C2A61AB9ED6F007DABB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = iRaul;
+				TargetAttributes = {
+					CE15C2AD1AB9ED6F007DABB5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CE15C2C51AB9ED70007DABB5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CE15C2AD1AB9ED6F007DABB5;
+					};
+				};
+			};
+			buildConfigurationList = CE15C2A91AB9ED6F007DABB5 /* Build configuration list for PBXProject "Shape Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE15C2A51AB9ED6F007DABB5;
+			productRefGroup = CE15C2AF1AB9ED6F007DABB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE15C2AD1AB9ED6F007DABB5 /* Shape Calculator */,
+				CE15C2C51AB9ED70007DABB5 /* Shape CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE15C2AC1AB9ED6F007DABB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE15C2BC1AB9ED70007DABB5 /* Main.storyboard in Resources */,
+				CE90B3E31AC7B4AC000C6A8E /* Circle.jpg in Resources */,
+				CE90B3E51AC7B4AC000C6A8E /* Cylinder.png in Resources */,
+				CE90B3E41AC7B4AC000C6A8E /* Cube.png in Resources */,
+				CE90B3DC1AC7AE16000C6A8E /* Triangle.jpg in Resources */,
+				CE15C2C11AB9ED70007DABB5 /* LaunchScreen.xib in Resources */,
+				CE90B3DA1AC7AD2A000C6A8E /* Square.png in Resources */,
+				BE9614A61ACCA51A008E48A2 /* Cone.jpg in Resources */,
+				CE15C2BE1AB9ED70007DABB5 /* Images.xcassets in Resources */,
+				CE90B3E61AC7B4AC000C6A8E /* Sphere.png in Resources */,
+				CE90B3DE1AC7B18F000C6A8E /* Rectangle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE15C2C41AB9ED70007DABB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE15C2AA1AB9ED6F007DABB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE15C2B91AB9ED70007DABB5 /* ViewController.swift in Sources */,
+				CE15C2B41AB9ED70007DABB5 /* AppDelegate.swift in Sources */,
+				CE90B3D71AC78AAF000C6A8E /* FormulasViewController.swift in Sources */,
+				CE90B3D51AC70C63000C6A8E /* ShapeCalculationViewController.swift in Sources */,
+				CE15C2B71AB9ED70007DABB5 /* Shape_Calculator.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE15C2C21AB9ED70007DABB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE15C2CD1AB9ED70007DABB5 /* Shape_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE15C2C81AB9ED70007DABB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE15C2AD1AB9ED6F007DABB5 /* Shape Calculator */;
+			targetProxy = CE15C2C71AB9ED70007DABB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE15C2BA1AB9ED70007DABB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE15C2BB1AB9ED70007DABB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE15C2BF1AB9ED70007DABB5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE15C2C01AB9ED70007DABB5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE15C2CE1AB9ED70007DABB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE15C2CF1AB9ED70007DABB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE15C2D11AB9ED70007DABB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shape Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE15C2D21AB9ED70007DABB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shape Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE15C2D41AB9ED70007DABB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shape CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shape Calculator.app/Shape Calculator";
+			};
+			name = Debug;
+		};
+		CE15C2D51AB9ED70007DABB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shape CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shape Calculator.app/Shape Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE15C2A91AB9ED6F007DABB5 /* Build configuration list for PBXProject "Shape Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE15C2CE1AB9ED70007DABB5 /* Debug */,
+				CE15C2CF1AB9ED70007DABB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE15C2D01AB9ED70007DABB5 /* Build configuration list for PBXNativeTarget "Shape Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE15C2D11AB9ED70007DABB5 /* Debug */,
+				CE15C2D21AB9ED70007DABB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE15C2D31AB9ED70007DABB5 /* Build configuration list for PBXNativeTarget "Shape CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE15C2D41AB9ED70007DABB5 /* Debug */,
+				CE15C2D51AB9ED70007DABB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE15C2B51AB9ED70007DABB5 /* Shape_Calculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE15C2B61AB9ED70007DABB5 /* Shape_Calculator.xcdatamodel */,
+			);
+			currentVersion = CE15C2B61AB9ED70007DABB5 /* Shape_Calculator.xcdatamodel */;
+			path = Shape_Calculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE15C2A61AB9ED6F007DABB5 /* Project object */;
+}
